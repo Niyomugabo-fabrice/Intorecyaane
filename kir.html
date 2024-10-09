@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rwandabeauty</title>
+    <style>
+        /* Basic styles for the body */
+        body {
+            font-family: sans-serif; /* Corrected from 'serf' to 'sans-serif' */
+            background-color: skyblue;
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+               }
+
+        /* Styles for the header links */
+        .Hlinks {
+            height: 5%;
+            display: flex; /* Use flexbox for better alignment */
+            align-items: center; /* Center items vertically */
+            background-color: black; /* Added background color for the header */
+            opacity: 60%;
+            margin-left: 0;
+  
+        }
+          /* Links inside the dropdown */
+          .Hlinks a {
+            color: black;
+            text-decoration: none;
+            padding-inline: 40px;
+          }
+          .links 
+          {
+            margin-left: 40px;
+            display:flex;
+          }
+        .separator
+        {
+            color:aliceblue;
+            opacity: 500%;
+        }
+
+        .Hlinks a {
+            color: white;
+            text-decoration: none;
+            margin-left: 5%;
+            font-size: large;
+        }
+
+        /* Specific styles for sign in and sign up links */
+
+        /* Centering the contents */
+        .contents {
+            text-align: center;
+            margin-top: 20px; /* Added margin for spacing */
+        }
+
+        /* Logo image size */
+        .Hlinks img {
+            width: 150px; /* Set the desired width */
+            height: auto; /* Maintain aspect ratio */
+            margin-left: -90px; /* Add some space between the logo and the links */
+        }
+        .paragraphs
+        {
+            display: flex;
+            margin: 30px;
+            align-items: center;
+        }
+        .right
+        {
+            float: right;
+            font-family: sans-serif;
+            padding-right: 70px;
+            width: 500px;
+        }
+        .center
+        {
+            float: left;
+            font-family: sans-serif;
+            width:500px;
+        }
+        .dropdown {
+            position: relative; /* Positioning for the dropdown */
+            display: block;
+            cursor:move; /* Change cursor to pointer */
+          }
+      
+          /* Dropdown content hidden by default */
+          .dropdown-content {
+            display: none; /* Hide by default */
+            position: absolute; /* Position relative to the dropdown */
+            background-color: black;
+            min-width: 400px; /* Minimum width */
+            z-index: 1; /
+          }
+      
+          /* Links inside the dropdown */
+          .dropdown-content a {
+            color: gold; /* Text color */
+            padding: 12px 16px; /* Padding */
+            text-decoration: none; /* No underline */
+            display: flex;/* Make links block elements */
+          }
+      
+          /* Show the dropdown when hovering over the link */
+          .dropdown:hover .dropdown-content {
+            display: block; /* Show the dropdown */
+          }
+      
+          /* Hover effect for dropdown links */
+          .dropdown-content a:hover {
+            color:greenyellow;
+          }
+          .sign
+          {
+            display:flex;
+            margin-left:40px;
+          }
+            .sign a
+            {
+                margin-left: 2px;
+                display:flex;
+                background-color:darkslategrey;
+                padding:10px;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="Hlinks">
+         <a href="#"><img src="logo.png" alt="Logo"></a>
+         <div class="links">
+         <div class="dropdown">
+         <a href="#">Book</a><span class="separator">|</span>
+           <div class="dropdown-content">
+             <a href="#">Serena Hotel</a>
+             <a href="#">Marriot Hotel</a>
+             <a href="#">Kigali Hotel</a>
+             <a href="#">Fatima Hotel</a>
+          </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Visit</a><span class="separator">|</span>
+            <div class="dropdown-content">
+                <a href="#">Visit National park</a>
+                <a href="#">Visit Gorillas in volcanoes</a>
+                <a href="#"> Visit Amazing Cows</a>
+                <a href="#">Visit Lakes </a>
+             </div>
+             </div>
+        <div class="dropdown">
+        <a href="#">Location</a><span class="separator">|</span>
+        <div class="dropdown-content">
+            <a href="#">Visit National park</a>
+            <a href="#">Visit Gorillas in volcanoes</a>
+            <a href="#">Amazing Cows</a>
+            <a href="#">Visit Lakes </a>
+         </div>
+         </div>
+         <div class="dropdown">
+        <a href="#">Restourant</a><span class="separator">|</span>
+        <div class="dropdown-content">
+            <a href="#">make order in Isame Restourant</a>
+            <a href="#">Make order in Ubwuzu Restourant</a>
+            <a href="#">Make order in Musanze Restourant</a>
+            <a href="#">Make order in Nyirangarama Restourant</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <a href="#">Services</a>
+        <div class="dropdown-content">
+            <a href="#">Visiting</a>
+            <a href="#">Booking</a>
+            <a href="#">Restourant</a>
+            <a href="#">Investment</a>
+            <a href="#">Payment</a>
+        </div>
+        </div>
+        </div>
+ <div class="sign">  
+    <a href="#">Signin</a>
+    
+    <a href="#">Signup</a>
+    </div>
+    </div>
+    <div class="welcome">
+      <div id=""
+    </div>
+    <div class="paragraphs">
+        <div class="right"><img src="hotel00.png" width="500px" height="400px"><p><b>This is serena hotel in Rwanda where every one is welcone and so to book this hotel you can click on this link that follow <a href="#">Serena hotel Room Booking</a> so it is very high appreciation to be in our hotel.</b></p></div>
+        <div class="center"><img src="restourant00.png" width="500px" height="400px"><p><b>Here is the best restourant in kigali and musanze location where Gorillas lives so to make order for the meal you want click on that link <a href="#">Make order in Restourant</a> Good meal you want you can get it for few money.</b></p></div>
+    </div>
+
+    <div class="contents">
+    </div>
+</body>
+</html>
